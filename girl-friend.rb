@@ -1,3 +1,5 @@
+# プログラミングで彼女を作ろうに出てきた問題のコードです
+
 # 猫セット
 S = gets.chomp.chars
 C = S.count("c")
@@ -15,9 +17,9 @@ n = gets.to_i
 m = gets.to_i
 str = ''
 loop do
-    str << 'R' * n
-    str << 'W' * n
-    break if str.length >= m
+  str << 'R' * n
+  str << 'W' * n
+  break if str.length >= m
 end
 puts str[0, m]
 
